@@ -1,0 +1,16 @@
+.app-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Flexo-Medium", arial, sans-serif;
+
+    .title {
+        padding-bottom: 30px;
+        width: 320px;
+        height: 118px
+    }
+
+    .buttonGeneratePokemon {
+        margin-top: 25px;
+    }
+}

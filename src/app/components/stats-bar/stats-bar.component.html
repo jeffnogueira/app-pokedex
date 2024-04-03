@@ -1,0 +1,8 @@
+<div class="stats-bar-component">
+    <div class="bars" #markerDiv>
+        <ng-container *ngFor="let item of divMarkers">
+            <div class="divMarker" [ngStyle]="{'background': getLinearGradient(item)}"></div>
+        </ng-container>
+    </div>
+    <p class="title"><span class="name">{{ nameStat }}</span></p>
+</div>

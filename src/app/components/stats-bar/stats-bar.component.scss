@@ -1,0 +1,51 @@
+.stats-bar-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5px;
+
+    .title {
+        text-align: center;
+        margin-top: 5px!important;
+
+        .name {
+            font-weight: bold;
+            font-size: 13px;
+            text-transform: capitalize;
+        }
+    }
+
+    .bars {
+        width: 80px;
+        height: 150px;
+        background-color: transparent;
+        z-index: 1;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .divMarker {
+            border: 1px solid #9b9b9b;
+            height: 10%;
+            margin-bottom: 1px;
+
+            animation: gradient 2s infinite;
+            animation-direction: reverse;
+            animation-timing-function: linear;
+            -webkit-animation: gradient 2s infinite;
+            -webkit-animation-direction: reverse;
+            -webkit-animation-timing-function: linear;
+        }
+        @keyframes gradient {
+            60% {
+                opacity: 0.60;
+                border: 1px solid #6b6b6b;
+            }
+            100% {
+                opacity: 1;
+                border: 1px solid #9b9b9b;
+            }
+        }
+    }
+}
