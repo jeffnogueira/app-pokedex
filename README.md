@@ -25,3 +25,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+![Gravação-de-Tela-2024-04-03-às-18 19 42](https://github.com/jeffnogueira/app-pokedex/assets/30880938/3463794f-f228-4e82-91c5-d43998bf1000)
+
+
