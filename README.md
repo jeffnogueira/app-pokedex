@@ -1,6 +1,6 @@
 # App Pokedex
 
-> Aplicação feita consumindo a ![PokeApi](https://pokeapi.co/)
+> Aplicação feita consumindo a [PokeApi](https://pokeapi.co/)
 
 ## Dependency
 
